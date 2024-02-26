@@ -1,0 +1,319 @@
+nmap -all 10.1.82.0/24
+Nmap scan report for 10.1.82.1
+Host is up (0.00036s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+21/tcp   open  ftp
+22/tcp   open  ssh
+23/tcp   open  telnet
+53/tcp   open  domain
+80/tcp   open  http
+8291/tcp open  unknown
+MAC Address: 16:58:DA:81:38:7E (Unknown)
+
+Nmap scan report for 10.1.82.17
+Host is up (0.00043s latency).
+Not shown: 998 closed ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+161/tcp open  snmp
+MAC Address: 18:E8:29:66:85:EB (Unknown)
+
+Nmap scan report for 10.1.82.25
+Host is up (0.057s latency).
+All 1000 scanned ports on 10.1.82.25 are filtered
+MAC Address: 00:42:38:04:02:C7 (Unknown)
+
+Nmap scan report for 10.1.82.30
+Host is up (0.00040s latency).
+Not shown: 934 filtered ports, 63 closed ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: D8:5E:D3:58:C3:17 (Unknown)
+
+Nmap scan report for 10.1.82.31
+Host is up (0.00065s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:D2:90 (Unknown)
+
+Nmap scan report for 10.1.82.35
+Host is up (-0.10s latency).
+All 1000 scanned ports on 10.1.82.35 are filtered
+MAC Address: D8:5E:D3:58:CF:99 (Unknown)
+
+Nmap scan report for 10.1.82.37
+Host is up (-0.073s latency).
+All 1000 scanned ports on 10.1.82.37 are filtered
+MAC Address: 8C:8D:28:CD:80:20 (Unknown)
+
+Nmap scan report for 10.1.82.39
+Host is up (0.0011s latency).
+Not shown: 997 closed ports
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: D8:5E:D3:58:D2:D1 (Unknown)
+
+Nmap scan report for 10.1.82.54
+Host is up (0.00041s latency).
+Not shown: 994 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+MAC Address: D8:5E:D3:58:6C:46 (Unknown)
+
+Nmap scan report for 10.1.82.57
+Host is up (0.00069s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE
+3389/tcp open  ms-wbt-server
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:C5:72 (Unknown)
+
+Nmap scan report for 10.1.82.89
+Host is up (0.00061s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:D3:11 (Unknown)
+
+Nmap scan report for 10.1.82.97
+Host is up (0.00063s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:C3:5B (Unknown)
+
+Nmap scan report for 10.1.82.101
+Host is up (0.00052s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:D3:2E (Unknown)
+
+Nmap scan report for 10.1.82.117
+Host is up (0.00043s latency).
+Not shown: 992 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+2179/tcp open  vmrdp
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:CF:98 (Unknown)
+
+Nmap scan report for 10.1.82.125
+Host is up (0.053s latency).
+Not shown: 999 closed ports
+PORT     STATE    SERVICE
+5060/tcp filtered sip
+MAC Address: 62:4D:CB:DF:85:A1 (Unknown)
+
+Nmap scan report for 10.1.82.128
+Host is up (0.13s latency).
+All 1000 scanned ports on 10.1.82.128 are closed (910) or filtered (90)
+MAC Address: 18:87:40:41:59:2E (Unknown)
+
+Nmap scan report for 10.1.82.130
+Host is up (0.032s latency).
+Not shown: 690 closed ports, 309 filtered ports
+PORT     STATE SERVICE
+5432/tcp open  postgresql
+MAC Address: 50:C2:E8:F0:6B:6D (Unknown)
+
+Nmap scan report for 10.1.82.132
+Host is up (0.0029s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+MAC Address: 3A:B7:4F:A1:90:4C (Unknown)
+
+Nmap scan report for 10.1.82.133
+Host is up (0.057s latency).
+Not shown: 993 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+1801/tcp open  msmq
+2103/tcp open  zephyr-clt
+2105/tcp open  eklogin
+2107/tcp open  msmq-mgmt
+MAC Address: 90:CC:DF:FB:59:28 (Unknown)
+
+Nmap scan report for 10.1.82.134
+Host is up (0.038s latency).
+All 1000 scanned ports on 10.1.82.134 are filtered
+MAC Address: B4:8C:9D:63:F1:97 (Unknown)
+
+Nmap scan report for 10.1.82.136
+Host is up (0.010s latency).
+All 1000 scanned ports on 10.1.82.136 are filtered
+MAC Address: 8C:C8:4B:5A:21:27 (Unknown)
+
+Nmap scan report for 10.1.82.137
+Host is up (-0.082s latency).
+All 1000 scanned ports on 10.1.82.137 are filtered
+MAC Address: 10:6F:D9:39:5C:61 (Unknown)
+
+Nmap scan report for 10.1.82.138
+Host is up (0.047s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE
+5357/tcp open  wsdapi
+MAC Address: 60:E9:AA:2C:54:FF (Unknown)
+
+Nmap scan report for 10.1.82.140
+Host is up (0.048s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE
+6646/tcp open  unknown
+MAC Address: 6C:6A:77:FD:65:3D (Unknown)
+
+Nmap scan report for 10.1.82.142
+Host is up (0.00087s latency).
+Not shown: 999 closed ports
+PORT     STATE SERVICE
+5555/tcp open  freeciv
+MAC Address: DC:62:94:07:67:C8 (Unknown)
+
+Nmap scan report for 10.1.82.146
+Host is up (0.00060s latency).
+Not shown: 570 closed ports, 426 filtered ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3306/tcp open  mysql
+MAC Address: D8:5E:D3:58:CA:51 (Unknown)
+
+Nmap scan report for 10.1.82.150
+Host is up (0.00097s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:91:CB:B1 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.1.82.151
+Host is up (0.10s latency).
+All 1000 scanned ports on 10.1.82.151 are filtered
+MAC Address: C8:5E:A9:6D:2D:83 (Unknown)
+
+Nmap scan report for 10.1.82.152
+Host is up (0.00056s latency).
+Not shown: 604 filtered ports, 394 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: 08:00:27:6B:9D:B4 (Oracle VirtualBox virtual NIC)
+
+Nmap scan report for 10.1.82.153
+Host is up (0.00059s latency).
+Not shown: 996 filtered ports
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+MAC Address: D8:5E:D3:58:C3:E7 (Unknown)
+
+Nmap scan report for 10.1.82.155
+Host is up (0.15s latency).
+Not shown: 999 filtered ports
+PORT     STATE SERVICE
+6646/tcp open  unknown
+MAC Address: 00:45:E2:B4:53:D7 (Unknown)
+
+Nmap scan report for 10.1.82.156
+Host is up (0.00061s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+8090/tcp open  opsmessaging
+MAC Address: D8:5E:D3:58:CA:12 (Unknown)
+
+Nmap scan report for 10.1.82.159
+Host is up (0.00053s latency).
+Not shown: 995 filtered ports
+PORT     STATE SERVICE
+902/tcp  open  iss-realsecure
+912/tcp  open  apex-mesh
+3306/tcp open  mysql
+5357/tcp open  wsdapi
+8090/tcp open  opsmessaging
+MAC Address: D8:5E:D3:58:CA:12 (Unknown)
+
+Nmap scan report for 10.1.82.176
+Host is up (0.0035s latency).
+All 1000 scanned ports on 10.1.82.176 are filtered
+MAC Address: 60:14:B3:D2:30:2F (CyberTAN Technology)
+
+Nmap scan report for 10.1.82.177
+Host is up (-0.058s latency).
+All 1000 scanned ports on 10.1.82.177 are filtered
+MAC Address: 00:42:38:DF:D4:41 (Unknown)
+
+Nmap scan report for 10.1.82.186
+Host is up (0.017s latency).
+Not shown: 989 closed ports
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+306/tcp   filtered unknown
+1051/tcp  filtered optima-vnet
+1658/tcp  filtered sixnetudr
+2002/tcp  filtered globe
+2043/tcp  filtered isis-bcast
+3493/tcp  filtered nut
+6002/tcp  filtered X11:2
+8254/tcp  filtered unknown
+19101/tcp filtered unknown
+64680/tcp filtered unknown
+MAC Address: 8C:C8:4B:5A:21:27 (Unknown)
+
+Nmap scan report for 10.1.82.192
+Host is up (0.00053s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+MAC Address: DA:14:E2:D2:92:BD (Unknown)
+
+Nmap scan report for 10.1.82.195
+Host is up (-0.081s latency).
+All 1000 scanned ports on 10.1.82.195 are filtered
+MAC Address: 9C:2F:9D:91:64:55 (Unknown)
+
+Nmap scan report for 10.1.82.193
+Host is up (0.00024s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 256 IP addresses (39 hosts up) scanned in 4857.51 seconds
+root@shark:~/payload#
